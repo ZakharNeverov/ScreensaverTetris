@@ -24,8 +24,3 @@ Rename the compiled ``.exe`` file to have a ``.scr`` extension. For example, if 
 - Select your screensaver from the list (it should appear with the name you gave the .scr file).
 - Click Preview to test the screensaver, or set the wait time and click OK to enable it.
 
-### 4. Additional Notes:
-
-- Exit Conditions: Ensure the screensaver can exit properly on user input (mouse movement, key press). Your code already handles this with the PostQuitMessage(0); calls in the WM_MOUSEMOVE, WM_KEYDOWN, WM_LBUTTONDOWN, and WM_RBUTTONDOWN cases.
-- Configuration Dialog: If you want to provide a configuration dialog, ensure the ShowConfigDialog function properly handles this case. Your current implementation shows a message box indicating no configuration is available, which is fine if no configuration is needed.
-- Preview Mode: If you want to support the preview mode (when the screensaver is shown in a small window in the settings), you'll need to implement this. The current placeholder returns 0 for this case.
