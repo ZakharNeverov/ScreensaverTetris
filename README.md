@@ -24,3 +24,5 @@ Rename the compiled ``.exe`` file to have a ``.scr`` extension. For example, if 
 - Select your screensaver from the list (it should appear with the name you gave the .scr file).
 - Click Preview to test the screensaver, or set the wait time and click OK to enable it.
 
+## TroubleShoting
+if changing colors in settings window does not change any colors in screensaver itself - make sure you have read/write permissions in screensaver.ini file
