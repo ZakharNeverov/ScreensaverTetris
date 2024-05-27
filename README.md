@@ -7,9 +7,9 @@
 Compile your project in Release mode to generate the .exe file.
 Rename the compiled ``.exe`` file to have a ``.scr`` extension. For example, if your executable is ``ScreensaverTetris.exe``, rename it to ``ScreensaverTetris.scr``.
 
-### 1. Move the .scr File:
+### 1. Move the .``scr`` and ``.ini`` Files:
 
-- Copy the renamed .scr file to the Windows system directory. The typical location is:
+- Copy the renamed ``scr`` and ``.ini`` files to the Windows system directory. The typical location is:
   - For 32-bit Windows: ``C:\Windows\System32``
   - For 64-bit Windows: ``C:\Windows\SysWOW64``
 
